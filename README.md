@@ -1,5 +1,5 @@
 # 79THGroupPrinters
-
+"
 $inf = "C:\printers\KOAZ8A__.INF"
 $drivername = "KONICA MINOLTA C360SeriesPS"
 $printerName = "KONICA MINOLTA C220"
@@ -27,3 +27,4 @@ Restart-Service -Name 'Spooler'
 
 #Add the printer
 Add-Printer -DriverName $DriverName -Name $printerName -PortName $printerPortName -Verbose
+"
